@@ -1,14 +1,21 @@
 {
   "expo": {
-    "name": "app-store",
+    "name": "Brechó do Cruzeiro",
     "slug": "app-store",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashIcon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000D26"
+    },
+     "androidStatusBar": {
+      "backgroundColor": "#000D26",
+      "translucent": false,
+      "barStyle": "light-content"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,13 +27,11 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.brechodocruzeiro.appstore",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000D26"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }

@@ -3,7 +3,7 @@ import { AsyncStorage } from 'react-native';
 
 interface AuthContextData{
   signed: boolean;
-  user: string | null;
+  token: string | null;
   loading: boolean;
   signOut(): void; 
 }
@@ -11,7 +11,7 @@ interface AuthContextData{
 const AuthContext = createContext<AuthContextData>({} as AuthContextData);
 
 export const AuthProvider: React.FC = ({ children }) => {
-	const [ user, setUser ] = useState<string | null>(null);
+	const [ token, setToken ] = useState<string | null>(null);
 	const [loading, setLoading] = useState(true);
 
 	useEffect(()=> {
@@ -19,7 +19,7 @@ export const AuthProvider: React.FC = ({ children }) => {
 			const storageToken = await AsyncStorage.getItem("@token");
 
 			if (storageToken) {
-				setUser(storageToken);
+				setToken(storageToken);
 				setLoading(false);
 			}else{
 				setLoading(false);
@@ -29,12 +29,12 @@ export const AuthProvider: React.FC = ({ children }) => {
 		loadStorageData();
 	}, []);
 
-	function signOut(){
-		AsyncStorage.clear();
+	async function signOut(){
+		await AsyncStorage.clear();
 	}
 
 	return (
-		<AuthContext.Provider value={{ signed: !!user, signOut, loading, user: ''}}>
+		<AuthContext.Provider value={{ signed: !!token, signOut, loading, token: ''}}>
     		{children}
   		</AuthContext.Provider>
 	);
