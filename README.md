@@ -56,23 +56,23 @@ expo install @expo/vector-icons
 
 # Passos a seguir:
 
-- [ x ] Estruturar as páginas;
+- [x] Estruturar as páginas;
 
-- [ x ] Fazer as pastas de rotas para a navegação entre arquivos;
+- [x] Fazer as pastas de rotas para a navegação entre arquivos;
 
-- [ x ] Separar as rotas em: SignIn e Main, as quais, respectivamente, estão relacionadas a quando o usuário ainda não está logado e quando já está autenticado;
+- [x] Separar as rotas em: SignIn e Main, as quais, respectivamente, estão relacionadas a quando o usuário ainda não está logado e quando já está autenticado;
 
-- [ x ] Conectar o app a api;
+- [x] Conectar o app a api;
 
-- [ x ] Fazer o context para armazenar os dados de autenticação;
+- [x] Fazer o context para armazenar os dados de autenticação;
 
-- [ x ] Fazer os arquivos de login e recuperação de senha na pasta login já conectados a api;
+- [x] Fazer os arquivos de login e recuperação de senha na pasta login já conectados a api;
 
-- [ x ] Pegar o token gerado pelo o usuário na autenticação e passá-lo para o context;
+- [x] Pegar o token gerado pelo o usuário na autenticação e passá-lo para o context;
 
-- [ x ] Tratar erros dos arquivos de login e recuperação de senha;
+- [x] Tratar erros dos arquivos de login e recuperação de senha;
 
-- [ x ] Fazer o arquivo de home com os buttons de navegação para outros arquivos, os quais serão os principais.
+- [x] Fazer o arquivo de home com os buttons de navegação para outros arquivos, os quais serão os principais.
 
 - Fazer o arquivo de cliente, o qual permite ao usuário administrador ver quantos clientes ele têm. Ademais, permite que o mesmo o atualize, delete ou crie um novo. Ele mostrará o nome do cliente que está com pendencias de pagamento, qual a compra ele fez e quanto o usuário administrador receberá.  <br />
 
@@ -80,7 +80,7 @@ expo install @expo/vector-icons
 
  **Isso para usuários que são administradores. Usuários comuns não possuem esse previlégio.**
 
- - [ x ] Fazer o arquivo de estoque, o qual permite a usuários administradores criar, atualizar e deletar compras de sua loja. Nele é mostrado o lucro que obterá com essas compras, além de outras informações, tais como: Quantidade de peças, preço para revenda, parcelamento, entre outros.
+ - [x] Fazer o arquivo de estoque, o qual permite a usuários administradores criar, atualizar e deletar compras de sua loja. Nele é mostrado o lucro que obterá com essas compras, além de outras informações, tais como: Quantidade de peças, preço para revenda, parcelamento, entre outros.
 
 - [ x ] Fazer o arquivo de controle de usuários, o qual o perfil administrador ter acesso a esses usuários, podendo criar novos e apagar os indesejados.
 
