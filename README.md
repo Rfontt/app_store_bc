@@ -95,6 +95,6 @@ expo install @expo/vector-icons
 
 ---
 
-Utilize como base a api que criei:https://github.com/Rfontt/Api_App_Store
+Utilize como base a api que criei: https://github.com/Rfontt/Api_App_Store
 
 Coloquei essa api em produção e esse app a consome. Porém por questões de segurança o endpoint dessa api não será disponibilizada, mas seu código servirá de base para você seguir com o app em um banco de dados local.
