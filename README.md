@@ -74,7 +74,7 @@ expo install @expo/vector-icons
 
 - [x] Fazer o arquivo de home com os buttons de navegação para outros arquivos, os quais serão os principais.
 
-- Fazer o arquivo de cliente, o qual permite ao usuário administrador ver quantos clientes ele têm. Ademais, permite que o mesmo o atualize, delete ou crie um novo. Ele mostrará o nome do cliente que está com pendencias de pagamento, qual a compra ele fez e quanto o usuário administrador receberá.  <br />
+- [x] Fazer o arquivo de cliente, o qual permite ao usuário administrador ver quantos clientes ele têm. Ademais, permite que o mesmo o atualize, delete ou crie um novo. Ele mostrará o nome do cliente que está com pendencias de pagamento, qual a compra ele fez e quanto o usuário administrador receberá.  <br />
 
 <h3 align = "center">  OBS: </h3> <br/>
 
@@ -82,13 +82,13 @@ expo install @expo/vector-icons
 
  - [x] Fazer o arquivo de estoque, o qual permite a usuários administradores criar, atualizar e deletar compras de sua loja. Nele é mostrado o lucro que obterá com essas compras, além de outras informações, tais como: Quantidade de peças, preço para revenda, parcelamento, entre outros.
 
-- [ x ] Fazer o arquivo de controle de usuários, o qual o perfil administrador ter acesso a esses usuários, podendo criar novos e apagar os indesejados.
+- [x] Fazer o arquivo de controle de usuários, o qual o perfil administrador ter acesso a esses usuários, podendo criar novos e apagar os indesejados.
 
-- [ x ] Estilização com styled-components;
+- [x] Estilização com styled-components;
 
-- [ x ] Incluir imagens;
+- [x] Incluir imagens;
 
-- [ x ] App criado e pronto para por em produção;
+- [x] App criado e pronto para por em produção;
 
 
 # Api:
